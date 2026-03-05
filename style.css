@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    background:black;
+    color:white;
+    font-family:Arial;
+}
+
+/* INTRO */
+#intro{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background:#000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+}
+
+/* CENTRO */
+.intro-box{
+    text-align:center;
+    border:2px solid red; /* <- solo para ver la caja */
+    padding:40px;
+}
+
+/* TITULO */
+.intro-box h1{
+    font-size:60px;
+    margin-bottom:30px;
+}
+
+/* BOTON */
+#enterBtn{
+    background:blue;
+    color:white;
+    font-size:24px;
+    padding:20px 50px;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+}
